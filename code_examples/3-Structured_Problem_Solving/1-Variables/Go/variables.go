@@ -7,7 +7,7 @@ package main
 func main() {
     var isCurrent = true // bool
     var age = 32 // int
-    var area = 45.6 float32
+    var area = 45.6 // float32
     var someWords = "Hello, World!" // string
 
     fmt.Println(isCurrent)
