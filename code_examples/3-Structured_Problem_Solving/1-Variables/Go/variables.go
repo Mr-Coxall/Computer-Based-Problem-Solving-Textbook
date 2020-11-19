@@ -3,6 +3,7 @@
 // This program shows declaring variables
 
 package main
+import "fmt"
 	
 func main() {
     var isCurrent = true // bool
