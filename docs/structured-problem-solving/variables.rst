@@ -57,7 +57,7 @@ Variable declaration usually should be grouped at the beginning of a section of 
       func main() {
       	  var isCurrent = true // bool
           var age = 32 // int
-          var area float32
+          var area = 45.6 float32
           var someWords = "Hello, World!" // string
 
           fmt.Println(isCurrent)
