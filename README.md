@@ -10,4 +10,4 @@
 
 The online version can be found at:
 
-[https://computer-based-problem-solving.readthedocs.io/en/latest/](https://computer-based-problem-solving-textbook.readthedocs.io/en/latest/)
+[https://computer-based-problem-solving-textbook.readthedocs.io/en/latest/](https://computer-based-problem-solving-textbook.readthedocs.io/en/latest/)
