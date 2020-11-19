@@ -1,5 +1,5 @@
 // Created by: Mr. Coxall
-// Created on: June 2020
+// Created on: Nov 2020
 // This program shows declaring variables
 
 package main
