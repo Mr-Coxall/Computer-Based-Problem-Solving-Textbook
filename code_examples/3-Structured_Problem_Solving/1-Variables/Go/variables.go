@@ -5,8 +5,13 @@
 package main
 	
 func main() {
-	var isCurrent = true // bool
+    var isCurrent = true // bool
     var age = 32 // int
-    var area float32
+    var area = 45.6 float32
     var someWords = "Hello, World!" // string
+
+    fmt.Println(isCurrent)
+    fmt.Println(age)
+    fmt.Println(area)
+    fmt.Println(someWords)
 }
