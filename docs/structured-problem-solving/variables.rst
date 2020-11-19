@@ -46,10 +46,8 @@ Variable declaration usually should be grouped at the beginning of a section of 
 
   .. group-tab:: Go
 
-    .. code-block:: Go
-
-      .. literalinclude:: ../../3-Structured_Problem_Solving/1-Variables/Go/code_examples/variables.go
-        :language: Go
+    .. literalinclude:: ../../3-Structured_Problem_Solving/1-Variables/Go/code_examples/variables.go
+      :language: Go
 
   .. group-tab:: Java
 
