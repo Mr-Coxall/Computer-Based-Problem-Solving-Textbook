@@ -64,21 +64,21 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Home',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Home logo',
+          src: 'img/logo.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Textbook',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          //{to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Mr-Coxall/Computer-Based-Problem-Solving-Textbook',
             label: 'GitHub',
             position: 'right',
           },
@@ -91,25 +91,29 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Textbook',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Code Examples',
+                href: 'https://github.com/Mr-Coxall/Computer-Based-Problem-Solving-Textbook/tree/main/code-examples',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Courses',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'ICS2O',
+                href: 'https://ics2o.mths.ca',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'ICS3U',
+                href: 'http://ics3u.mths.ca',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'ICS4U',
+                href: 'http://ics4u.mths.ca',
               },
             ],
           },
@@ -117,17 +121,13 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Mr-Coxall/Computer-Based-Problem-Solving-Textbook',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Mr Coxall, Computer Based Problem Solving.`,
       },
       prism: {
         theme: lightCodeTheme,

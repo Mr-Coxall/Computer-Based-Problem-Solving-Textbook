@@ -45,3 +45,17 @@ The `cd` command changes the directory you're working with. In order to work wit
 The `npm run start` command builds your site locally and serves it through a development server, ready for you to view at .
 
 Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+
+```jsx {1,4-6,11} showLineNumbers
+import React from 'react';
+
+function MyComponent(props) {
+  if (props.isBar) {
+    return <div>Bar</div>;
+  }
+
+  return <div>Foo</div>;
+}
+
+export default MyComponent;
+```
