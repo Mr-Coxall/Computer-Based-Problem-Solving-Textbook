@@ -14,8 +14,12 @@ The online version can be found at:
 
 ## Start Dev Server in Codespaces
 
-```npm run start -- --host 0.0.0.0```
+```bash
+npm run start -- --host 0.0.0.0
+```
 
 ## To build the Text in Codespaces
 
-```GIT_USER=mr-coxall yarn deploy```
+```bash
+GIT_USER=mr-coxall yarn deploy
+```
