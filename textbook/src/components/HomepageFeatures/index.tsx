@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_notebook_re_id0r.svg').default,
     description: (
       <>
-        Visit the online textbook.
+        Visit the <a href={"docs/forward"}>online textbook</a>.
       </>
     ),
   },
@@ -23,7 +23,16 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_pair_programming_re_or4x.svg').default,
     description: (
       <>
-        Goto the GitHub repo that has all the code examples.
+        Goto the <a href='https://github.com/Mr-Coxall/Computer-Based-Problem-Solving-Textbook/tree/main/code-examples'>GitHub repo</a> that has all the code examples.
+      </>
+    ),
+  },
+  {
+    title: 'GitHub Repo',
+    Svg: require('@site/static/img/undraw_code_typing_re_p8b9.svg').default,
+    description: (
+      <>
+        This textbook can be found on <a href='https://github.com/Mr-Coxall/Computer-Based-Problem-Solving-Textbook'>GitHub</a>.
       </>
     ),
   },

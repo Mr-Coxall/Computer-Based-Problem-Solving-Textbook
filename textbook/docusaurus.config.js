@@ -67,7 +67,7 @@ const config = {
         title: 'Home',
         logo: {
           alt: 'Home logo',
-          src: 'img/logo.png',
+          src: 'img/coding.svg',
         },
         items: [
           {
@@ -101,7 +101,7 @@ const config = {
             ],
           },
           {
-            title: 'Courses',
+            title: 'Course Web Sites',
             items: [
               {
                 label: 'ICS2O',
