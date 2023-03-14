@@ -1,7 +1,8 @@
 # Computer-Based-Problem-Solving
 
-![Super Linter](https://github.com/Mr-Coxall/Computer-Based-Problem-Solving-Textbook/workflows/Super%20Linter/badge.svg)
-![Read the Docs](https://img.shields.io/readthedocs/computer-based-problem-solving-textbook.svg)
+[![Mr Coxall's Super Linter](https://github.com/Mr-Coxall/Computer-Based-Problem-Solving-Textbook/workflows/Mr%20Coxall's%20Super%20Linter/badge.svg)](https://github.com/Mr-Coxall/Computer-Based-Problem-Solving-Textbook/actions)
+
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)](./LICENSE)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/mr-coxall/Computer-Based-Problem-Solving-Textbook.svg)
 ![GitHub issues](https://img.shields.io/github/issues/mr-coxall/Computer-Based-Problem-Solving-Textbook.svg)
