@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Computer Based Problem Solving',
-  tagline: 'Dinosaurs are cool',
+  tagline: '“Everyone in this country should learn how to program because it teaches you how to think” – Steve Jobs.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
