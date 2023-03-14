@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Deploy your site
+# Deploy your site A
 
 Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
 
@@ -18,7 +18,7 @@ npm run build
 
 The static files are generated in the `build` folder.
 
-## Deploy your site
+## Deploy your site B
 
 Test your production build locally:
 
