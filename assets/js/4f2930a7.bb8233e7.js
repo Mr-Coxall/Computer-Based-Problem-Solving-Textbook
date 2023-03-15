@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktextbook=self.webpackChunktextbook||[]).push([[8498],{3450:o=>{o.exports=JSON.parse('{"permalink":"/Computer-Based-Problem-Solving-Textbook/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
