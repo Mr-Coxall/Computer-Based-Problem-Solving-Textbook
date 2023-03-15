@@ -18,4 +18,5 @@
 ###############
 # Rules by id #
 ###############
-MD013: false
+MD013: false # Allow long lines
+MD033: false # Allow inline HTML
