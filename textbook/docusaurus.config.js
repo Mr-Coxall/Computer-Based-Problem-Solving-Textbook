@@ -109,7 +109,7 @@ const config = {
               },
               {
                 label: 'ICS3U',
-                href: 'http://ics3u.mths.ca',
+                href: 'http://ics3u.mths.ca'
               },
               {
                 label: 'ICS4U',
