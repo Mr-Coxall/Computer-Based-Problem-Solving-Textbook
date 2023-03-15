@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer/themes/github')
+const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -29,7 +29,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en']
   },
 
   presets: [
@@ -38,10 +38,10 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          //sidebarPath: require.resolve('./sidebars.js'),
+          // sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          //editUrl:
+          // editUrl:
           //  'https://github.com/mr-coxall/Computer-Based-Problem-Solving-Textbook/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
@@ -49,13 +49,13 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/mr-coxall/Computer-Based-Problem-Solving-Textbook/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/mr-coxall/Computer-Based-Problem-Solving-Textbook/tree/main/packages/create-docusaurus/templates/shared/'
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      }),
-    ],
+          customCss: require.resolve('./src/css/custom.css')
+        }
+      })
+    ]
   ],
 
   themeConfig:
@@ -67,22 +67,22 @@ const config = {
         title: 'Home',
         logo: {
           alt: 'Home logo',
-          src: 'img/coding.svg',
+          src: 'img/coding.svg'
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Textbook',
+            label: 'Textbook'
           },
-          //{to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/Mr-Coxall/Computer-Based-Problem-Solving-Textbook',
             label: 'GitHub',
-            position: 'right',
-          },
-        ],
+            position: 'right'
+          }
+        ]
       },
       footer: {
         style: 'dark',
@@ -92,20 +92,20 @@ const config = {
             items: [
               {
                 label: 'Textbook',
-                to: '/docs/intro',
+                to: '/docs/intro'
               },
               {
                 label: 'Code Examples',
-                href: 'https://github.com/Mr-Coxall/Computer-Based-Problem-Solving-Textbook/tree/main/code-examples',
-              },
-            ],
+                href: 'https://github.com/Mr-Coxall/Computer-Based-Problem-Solving-Textbook/tree/main/code-examples'
+              }
+            ]
           },
           {
             title: 'Course Web Sites',
             items: [
               {
                 label: 'ICS2O',
-                href: 'https://ics2o.mths.ca',
+                href: 'https://ics2o.mths.ca'
               },
               {
                 label: 'ICS3U',
@@ -113,27 +113,27 @@ const config = {
               },
               {
                 label: 'ICS4U',
-                href: 'http://ics4u.mths.ca',
-              },
-            ],
+                href: 'http://ics4u.mths.ca'
+              }
+            ]
           },
           {
             title: 'More',
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/Mr-Coxall/Computer-Based-Problem-Solving-Textbook',
-              },
-            ],
-          },
+                href: 'https://github.com/Mr-Coxall/Computer-Based-Problem-Solving-Textbook'
+              }
+            ]
+          }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Mr Coxall, Computer Based Problem Solving.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Mr Coxall, Computer Based Problem Solving.`
       },
       prism: {
         theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-    }),
-};
+        darkTheme: darkCodeTheme
+      }
+    })
+}
 
-module.exports = config;
+module.exports = config
