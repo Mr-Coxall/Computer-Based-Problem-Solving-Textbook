@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktextbook=self.webpackChunktextbook||[]).push([[6002],{9261:e=>{e.exports=JSON.parse('{"permalink":"/Computer-Based-Problem-Solving-Textbook/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
