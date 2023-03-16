@@ -38,8 +38,7 @@ So what did you get as your answer? When you got someone else to do the experime
 links to also look at:
 
 * <a href='https://scienceblogs.com/startswithabang/2009/08/31/paper-folding-to-the-moon'>Folding paper to the moon</a>
-*  <a href='https://www.scienceabc.com/eyeopeners/can-you-really-fold-a-piece-of-paper-only-7-times.html'>Can you really only fold a piece of paper 7 times</a>
-
+* <a href='https://www.scienceabc.com/eyeopeners/can-you-really-fold-a-piece-of-paper-only-7-times.html'>Can you really only fold a piece of paper 7 times</a>
 
 ## The Salmon Swimming
 
