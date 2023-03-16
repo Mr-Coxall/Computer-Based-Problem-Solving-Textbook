@@ -130,8 +130,10 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Mr Coxall, Computer Based Problem Solving.`
       },
       prism: {
+        /* theme: lightCodeTheme, */
         theme: lightCodeTheme,
-        darkTheme: darkCodeTheme
+        darkTheme: darkCodeTheme,
+        additionalLanguages: ['java', 'swift']
       }
     })
 }

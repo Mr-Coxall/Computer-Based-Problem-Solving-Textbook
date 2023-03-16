@@ -126,27 +126,91 @@ class HelloWorld {
 <TabItem value="c">
 
 ```c showLineNumbers
-function helloWorld() {
-  console.log('Hello, world!');
+// Copyright (c) 2020 Mr. Coxall All rights reserved
+//
+// Created by: Mr. Coxall
+// Created on: Sep 2020
+// This program does basic math
+
+#include <stdio.h>
+#include <math.h>       /* pow */
+
+int main() {
+    // this function does basic math
+    
+    printf("9 + 2 = %d\n",(9 + 2));
+    printf("7 - 2 = %d\n",(7 - 2));
+    printf("3 ÷ 2 = %.2f\n",(3.0 / 2.0));
+    printf("4 + 4 ÷ 2 = %.4f\n",(4 + 4.0 / 2.0));
+    printf("3 + 4 × 2 = %d\n",(3 + 4 * 2));
+    printf("5 + 2 ^ 3 = %d\n",(5 + 2 ^ 3)); // XOR Bitwise Operators 
+    printf("5 + 2³ = %f\n",(5 + pow(2, 3))); // exponent
+    
+    printf("\nDone.\n");
+    return 0;
 }
+
 ```
 
 </TabItem>
 <TabItem value="cpp">
 
-```c++ showLineNumbers
-def hello_world():
-  print("Hello, world!")
+```cpp {11-14} showLineNumbers
+// Copyright (c) 2020 Mr. Coxall All rights reserved.
+//
+// Created by: Mr. Coxall
+// Created on: Sep 2020
+// This program shows declaring variables
+
+#include <iostream>
+
+int main() {
+    // variable definition
+    bool isCurrent = true;  // bool
+    int age = 32;  // int
+    float area = 32.45;  // float
+    std::string someWords = "Hello, World!";  // string
+
+    std::cout << isCurrent << std::endl;
+    std::cout << age << std::endl;
+    std::cout << area << std::endl;
+    std::cout << someWords << std::endl;
+
+    std::cout << "\nDone." << std::endl;
+}
 ```
 
 </TabItem>
 <TabItem value="go">
 
 ```go showLineNumbers
-class HelloWorld {
-  public static void main(String args[]) {
-    System.out.println("Hello, World");
-  }
+/**
+ * Created by: Mr. Coxall
+ * Created on: Sep 2020
+ * This program shows declaring variables
+ */
+
+package main
+
+import (
+  "fmt"
+)
+
+func main() {
+  // variable definition
+  var is_current bool = true  // bool
+  var is_old = true  // type is inferred
+  var age int = 32  // int
+  var area = 32.4  // float32
+  var some_words string = "Hello, World!"  // string
+
+  fmt.Println(is_current)
+  fmt.Println(is_old)
+  fmt.Println(age)
+  fmt.Println(area)
+  fmt.Println(some_words)
+
+  fmt.Println("\nDone.")
 }
 ```
 
@@ -154,10 +218,45 @@ class HelloWorld {
 <TabItem value="java">
 
 ```java showLineNumbers
-class HelloWorld {
-  public static void main(String args[]) {
-    System.out.println("Hello, World");
-  }
+/*
+ * This program shows declaring variables
+ *
+ * @author  Mr Coxall
+ * @version 1.0
+ * @since   2020-09-01
+ */
+
+final class Main {
+    private Main() {
+        // Prevent instantiation
+        // Optional: throw an exception e.g. AssertionError
+        // if this ever *is* called
+        throw new IllegalStateException("Cannot be instantiated");
+    }
+
+    /**
+     * Some floating point number.
+     */
+    public static final float SOME_FLOAT = 14.65F;
+
+    /**
+     * Main entry point into program.
+     * @param args nothing passed in
+     */
+    public static void main(final String[] args) {
+        // variable definition
+        boolean isCurrent = true;  // bool
+        int age = 0;  // int
+        float area = SOME_FLOAT;  // float
+        String someWords = "Hello, World!";  // string
+
+        System.out.println(isCurrent);
+        System.out.println(age);
+        System.out.println(area);
+        System.out.println(someWords);
+
+        System.out.println("\nDone.");
+    }
 }
 ```
 
@@ -165,22 +264,54 @@ class HelloWorld {
 <TabItem value="javascript">
 
 ```javascript showLineNumbers
-class HelloWorld {
-  public static void main(String args[]) {
-    System.out.println("Hello, World");
-  }
-}
+/**
+ * Created by: Mr. Coxall
+ * Created on: Sep 2020
+ * This program shows declaring variables
+ */
+
+// variable definition
+var isCurrent = true // bool
+var age = 32 // int
+var area = 32.45 // float
+var someWords = "Hello, World!" // string
+
+console.log(isCurrent)
+console.log(age)
+console.log(area)
+console.log(someWords)
+
+console.log("\nDone.")
 ```
 
 </TabItem>
 <TabItem value="python">
 
 ```python showLineNumbers
-class HelloWorld {
-  public static void main(String args[]) {
-    System.out.println("Hello, World");
-  }
-}
+#!/usr/bin/env python3
+
+# Created by: Mr. Coxall
+# Created on: Sep 2020
+# This program shows declaring variables
+
+
+def main():
+    # variable definition
+    is_current = True  # bool
+    age = 32  # int
+    area = 32.45  # float
+    some_words = "Hello, World!"  # string
+
+    print(is_current)
+    print(age)
+    print(area)
+    print(some_words)
+
+    print("\nDone.")
+
+
+if __name__ == "__main__":
+    main()
 ```
 
 </TabItem>
