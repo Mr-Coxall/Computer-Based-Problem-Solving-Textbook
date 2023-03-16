@@ -9,8 +9,10 @@ using System;
  * The Program class
  * Contains all methods for performing basic variable usage
 */
-class Program {
-    public static void Main (string[] args) {
+class Program
+{
+    public static void Main (string[] args)
+    {
         // variable definition
         bool isCurrent = true;  // bool
         int age = 32;  // int
