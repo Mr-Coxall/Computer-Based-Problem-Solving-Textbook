@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Steps in Problem Solving
 
-There are many ways to solve a problem but having a process to follow can help make problem solving easier. If you do not think through a problem logically, then you end up just going around in circles and never solving it. The following is just one of many <a href='https://www.google.com/search?q=six+step+problem+solving+system'>Six Step Problem Solving Systems</a>, which can be used to solve any type of problem, not just ones that will be solved on a computer. The good thing is that the system translates nicely to computer problems, which is very useful, since the focus of the book is to solve problems on a computer. 
+There are many ways to solve a problem but having a process to follow can help make problem solving easier. If you do not think through a problem logically, then you end up just going around in circles and never solving it. The following is just one of many <a href='https://www.google.com/search?q=six+step+problem+solving+system'>Six Step Problem Solving Systems</a>, which can be used to solve any type of problem, not just ones that will be solved on a computer. The good thing is that the system translates nicely to computer problems, which is very useful, since the focus of the book is to solve problems on a computer.
 
 The six steps in this system are:
 
@@ -55,17 +55,16 @@ Here are things to remember:
 
 ## Check the Solution
 
-You now (hopefully) have a solution to the original problem that you are pretty sure works. The next step is to ensure it actually solves exactly what the problem was. You might need to go through, step by step, to ensure it works. You might need to work through the solution and confirm the answer you get is correct. You might have to work through the solution several times and ensure you always get the same (or similar) answer. 
-Here are things to remember:  
+You now (hopefully) have a solution to the original problem that you are pretty sure works. The next step is to ensure it actually solves exactly what the problem was. You might need to go through, step by step, to ensure it works. You might need to work through the solution and confirm the answer you get is correct. You might have to work through the solution several times and ensure you always get the same (or similar) answer.
 
+Here are things to remember:
 * Is the answer reasonable?
 * Work through the solution and check for errors.
 * Go through the solution several times and compare results.
 
 ## Document the Solution
 
-So you have come up with a brilliant solution to a problem. If you do not share the solution with anyone, what was the point? You have to ensure that you answer is verifiable and reproducible, so anyone can use it. 
-Here are things to remember:  
-
+So you have come up with a brilliant solution to a problem. If you do not share the solution with anyone, what was the point? You have to ensure that you answer is verifiable and reproducible, so anyone can use it.
+Here are things to remember:
 * Document what the problem and solution is.
 * Ensure anyone can follow your steps.

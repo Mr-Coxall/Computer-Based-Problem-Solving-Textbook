@@ -4,33 +4,33 @@ sidebar_position: 3
 
 # Example Problems
 
-Here are some examples of problems and a possible solution using the six step method. Note that these problems are not necessarily problems that you would use a computer to help you solve. This is an important thing to remember, not all problems should be solved with a computer. Although this book is about solving problems using a computer, there are many problems that are better solved not using a computer and that is perfectly ok. Sometimes your job as a programmer might be to identify that you should not be solving the problem on a computer. Latter on these six steps will be translated into six step used to solve problems that a computer program will be used to help solve.
+Here are some examples of problems and a possible solution using the six step method. Note that these problems are not necessarily problems that you would use a computer to help you solve. This is an important thing to remember, not all problems should be solved with a computer. Although this book is about solving problems using a computer, there are many problems that are better solved not using a computer and that is perfectly OK. Sometimes your job as a programmer might be to identify that you should not be solving the problem on a computer. Latter on these six steps will be translated into six step used to solve problems that a computer program will be used to help solve.
 
 ## Folding Paper
 
-**How small can a piece of paper be made?**  
+**How small can a piece of paper be made?**
 
 ### 1. What is the problem?
 
 The wording in this problem is a little vague and could be confusing. What is meant by “made”? Is it cutting, burning or shredding? You should go back to the source of the question to find out. You might find out that the real question is, “How many times can a piece of paper be folded?”
 
-### 2. Make a model.
+### 2. Make a model
 
 For this problem our model will just be our actual physical piece of paper. It is not always possible to make a model using that “real” item. What would happen if the question was to fold paper made of gold, can you afford gold leaf paper? You might have to use a suitable substitute.
 
-### 3. Analyze the model.
+### 3. Analyze the model
 
 You should check to make sure that your model will be correct. What is your size of paper? Would that not make a difference in how many times you can fold it? Maybe not? Once again you might have to go back to the source of the question and get more information. Maybe the real question is, “How many times can a piece of 8½"x 11" paper be folded?”
 
-### 4. Find the solution.
+### 4. Find the solution
 
 In this case to find the solution we will take our piece of 8½"x 11" piece of paper and keep folding it until we cannot longer do it. Should we try more than once?
 
-### 5. Check the solution.
+### 5. Check the solution
 
 It is always important to check your solution to see if it can be reproduced with accuracy. Maybe you could get someone else to fold a piece of paper and see how many times they can do it. Is it different from your answer? Maybe they have some special technique?
 
-### 6. Document the solution.
+### 6. Document the solution
 
 Now that you have proven that a piece of 8½" x 11" can only be folded X number of times (where X is your answer), the next step is to document the solution so that other people can benefit from your analysis and can reproduce your experiment.
 
@@ -49,13 +49,13 @@ links to also look at:
 
 The first thing that should be asked is, does the fish swim up stream 3 km during the day and fall back 2 km at night or does she swim continuously all day and would go 3 km if it was not for the 2 km current so she only ever gets 1 km? Once again you will have to go back to the source of the problem to find out. We will say she swims 3 km during the day and then drifts back 2 km at night.
 
-### 2) Make a model.
+### 2) Make a model
 
 For this problem our model will be a picture of a piece of what is happening.
 
 ![Salmon swimming](./img/salmon_swimming.png)
 
-### 3) Analyze the model.
+### 3) Analyze the model
 
 You should check to make sure that your model will be correct. We will follow what is going on in a table:
 
@@ -72,7 +72,6 @@ You should check to make sure that your model will be correct. We will follow wh
 |#98         |100                      |98
 |#99         |101                      |99
 |#100        |102                      |100
-
 
 ### 4) Find the solution
 
