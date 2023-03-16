@@ -2,6 +2,9 @@
 sidebar_position: 3
 ---
 
+import Tabs from "@theme/Tabs"
+import TabItem from "@theme/TabItem"
+
 # Variables
 
 A <a href='https://en.wikipedia.org/wiki/Variable_(computer_science)'>variable</a> is a name that we use to represent a value that we want the computer to store in its memory for us. When solving problems, we often need to hold some valuable pieces of information we will use in our solution. From the “Input-Process-Output” model above, an example of variables we would be placing in storage is the input from the user. The pieces of information could be people’s names, important numbers or a total in a purchase. We use a name that means something to us (and hopefully the people that come after us and read our <a href='https://en.wikipedia.org/wiki/Source_code'>source code</a>, commonly referred to as just code) so that we know right away when we read our code what it is holding. In math class you might be familiar with equations that involve variables like “x or y”. We would not name a variable x, if it is holding the number of students in class, we might call it numberOfStudents or number_of_students (depending on the style guide for a particular language). This has much more meaning to us and other people that also look at our code. Some people are still tempted to use a variable name like "x", becasue they say it will save space. But once our code is converted to machine language, it does not matter what you called your varaible it will be converted to something that takes the same space. So be a "nice" programmer and always use meaningful varaible names.
@@ -20,13 +23,19 @@ In most programming languages you will have an <a href='https://en.wikipedia.org
 
 Variable declaration usually should be grouped at the beginning of a section of code (sub, procedure, function, method...), after the initial <a href='https://en.wikipedia.org/wiki/Comment_%28computer_programming%29'>comments</a>. A blank line follows the declaration and separates the declaration from the rest of your code. This makes it easy to see where the declaration starts and ends. Ensuring that your code is easy to read and understand is as important in computer science as it is in English. It is important to remember that your code has two audiences, the computer that needs to <a href='https://en.wikipedia.org/wiki/Compiler'>compile</a> or <a href='https://en.wikipedia.org/wiki/Interpreter_(computing)'>interprete</a> it so that the computer can run your program and even more important, you and everyone else that looks at your source code that are trying to figure out how your program works. Here are some examples of declaring a variable:
 
-import Tabs from "@theme/Tabs"
-import TabItem from "@theme/TabItem"
-
 <Tabs
   defaultValue="c"
-  groupID="codeGroup1">
-<TabItem value="c" label="C">
+  groupID="codeGroup1"
+  values={[
+    { label: 'C', value: 'c', },
+    { label: 'C++', value: 'cpp', },
+    { label: 'Go', value: 'go', },
+    { label: 'Java', value: 'java', },
+    { label: 'JavaScript', value: 'javascript', },
+    { label: 'Python', value: 'python', },
+    { label: 'Swift', value: 'swift', },
+    ]}>
+<TabItem value="c">
 
 ```c showLineNumbers
 function helloWorld() {
@@ -35,7 +44,7 @@ function helloWorld() {
 ```
 
 </TabItem>
-<TabItem value="cpp" label="C++">
+<TabItem value="cpp">
 
 ```c++ showLineNumbers
 def hello_world():
@@ -43,7 +52,7 @@ def hello_world():
 ```
 
 </TabItem>
-<TabItem value="go" label="Go">
+<TabItem value="go">
 
 ```go showLineNumbers
 class HelloWorld {
@@ -54,7 +63,7 @@ class HelloWorld {
 ```
 
 </TabItem>
-<TabItem value="java" label="Java">
+<TabItem value="java">
 
 ```java showLineNumbers
 class HelloWorld {
@@ -65,7 +74,7 @@ class HelloWorld {
 ```
 
 </TabItem>
-<TabItem value="javascript" label="JavaScript">
+<TabItem value="javascript">
 
 ```javascript showLineNumbers
 class HelloWorld {
@@ -76,7 +85,7 @@ class HelloWorld {
 ```
 
 </TabItem>
-<TabItem value="python" label="Python">
+<TabItem value="python">
 
 ```python showLineNumbers
 class HelloWorld {
@@ -87,7 +96,7 @@ class HelloWorld {
 ```
 
 </TabItem>
-<TabItem value="swift" label="Swift">
+<TabItem value="swift">
 
 ```swift showLineNumbers
 class HelloWorld {
@@ -100,16 +109,21 @@ class HelloWorld {
 </TabItem>
 </Tabs>
 
-## test
-
-Qwerty
-
 ## Test 2
 
 <Tabs
   defaultValue="c"
-  groupID="codeGroup1">
-<TabItem value="c" label="C">
+  groupID="codeGroup1"
+  values={[
+    { label: 'C', value: 'c', },
+    { label: 'C++', value: 'cpp', },
+    { label: 'Go', value: 'go', },
+    { label: 'Java', value: 'java', },
+    { label: 'JavaScript', value: 'javascript', },
+    { label: 'Python', value: 'python', },
+    { label: 'Swift', value: 'swift', },
+    ]}>
+<TabItem value="c">
 
 ```c showLineNumbers
 function helloWorld() {
@@ -118,7 +132,7 @@ function helloWorld() {
 ```
 
 </TabItem>
-<TabItem value="cpp" label="C++">
+<TabItem value="cpp">
 
 ```c++ showLineNumbers
 def hello_world():
@@ -126,7 +140,7 @@ def hello_world():
 ```
 
 </TabItem>
-<TabItem value="go" label="Go">
+<TabItem value="go">
 
 ```go showLineNumbers
 class HelloWorld {
@@ -137,7 +151,7 @@ class HelloWorld {
 ```
 
 </TabItem>
-<TabItem value="java" label="Java">
+<TabItem value="java">
 
 ```java showLineNumbers
 class HelloWorld {
@@ -148,7 +162,7 @@ class HelloWorld {
 ```
 
 </TabItem>
-<TabItem value="javascript" label="JavaScript">
+<TabItem value="javascript">
 
 ```javascript showLineNumbers
 class HelloWorld {
@@ -159,7 +173,7 @@ class HelloWorld {
 ```
 
 </TabItem>
-<TabItem value="python" label="Python">
+<TabItem value="python">
 
 ```python showLineNumbers
 class HelloWorld {
@@ -170,7 +184,7 @@ class HelloWorld {
 ```
 
 </TabItem>
-<TabItem value="swift" label="Swift">
+<TabItem value="swift">
 
 ```swift showLineNumbers
 class HelloWorld {
