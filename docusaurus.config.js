@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Comuter Based Problem Solving',
-  tagline: 'Using Code to Solve Problems',
+  tagline: 'An Introduction to using Code to Solve Problems',
   favicon: 'img/cs-logo.png',
 
   // Set the production url of your site here
@@ -43,14 +43,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://https://github.com/Mr-Coxall/Computer-Based-Problem-Solving-Textbook/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://https://github.com/Mr-Coxall/Computer-Based-Problem-Solving-Textbook/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -63,7 +63,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/cs-logo.png',
       navbar: {
         title: 'Computer Based Problem Solving',
         logo: {
@@ -72,15 +72,8 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          { to: '/blog', label: 'Blog', position: 'left' },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://github.com/Mr-Coxall/Computer-Based-Problem-Solving-Textbook',
+            label: 'Edit on GitHub',
             position: 'right',
           },
         ],
@@ -89,28 +82,28 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Code',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Code Examples',
+                to: 'https://github.com/Mr-Coxall/Computer-Based-Problem-Solving-Textbook/tree/main/code_examples',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Courses',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'ICD2O',
+                href: 'http://icd2o.mths.ca',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'ICS3U',
+                href: 'http://ics3u.mths.ca',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'ICS4U',
+                href: 'http://ics4u.mths.ca',
               },
             ],
           },
@@ -118,17 +111,13 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Mr-Coxall/Computer-Based-Problem-Solving-Textbook',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Mr Coxall, Computer Based Problem Solving Textbook`,
       },
       prism: {
         theme: lightCodeTheme,
