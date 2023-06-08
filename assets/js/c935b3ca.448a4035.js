@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcs_textbook=self.webpackChunkcs_textbook||[]).push([[26],{9285:o=>{o.exports=JSON.parse('{"label":"facebook","permalink":"/Computer-Based-Problem-Solving-Textbook/blog/tags/facebook","allTagsPath":"/Computer-Based-Problem-Solving-Textbook/blog/tags","count":1}')}}]);

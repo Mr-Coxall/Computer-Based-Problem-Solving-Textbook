@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcs_textbook=self.webpackChunkcs_textbook||[]).push([[2723],{8921:o=>{o.exports=JSON.parse('{"label":"docusaurus","permalink":"/Computer-Based-Problem-Solving-Textbook/blog/tags/docusaurus","allTagsPath":"/Computer-Based-Problem-Solving-Textbook/blog/tags","count":4}')}}]);
