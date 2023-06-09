@@ -1,6 +1,13 @@
 ---
 sidebar_position: 4
+hide_table_of_contents: true
 ---
+
+import CodeBlock from '@theme/CodeBlock';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import MyComponentSource from '!!raw-loader!./_category_.json'
+import MyCode from '!!raw-loader!../../code_examples/3-Structured_Problem_Solving/1-Variables/C/main.c'
 
 # Markdown Features
 
@@ -75,76 +82,35 @@ function HelloDocusaurus() {
 }
 ```
 
-## Admonitions
+<CodeBlock
+  language="json"
+  showLineNumbers>{MyComponentSource}
+</CodeBlock>
+<CodeBlock 
+  language="json"
+  showLineNumbers>{MyCode}
+</CodeBlock>
 
-Docusaurus has a special syntax to create admonitions and callouts:
+<Tabs groupId="code-block" defaultValue="Python">
+  <TabItem value="C" label="C" default>
+    <CodeBlock language="json" showLineNumbers>{MyComponentSource}</CodeBlock>
+  </TabItem>
+  <TabItem value="C++" label="C++">
+    <CodeBlock language="json" showLineNumbers>{MyComponentSource}</CodeBlock>
+  </TabItem>
+  <TabItem value="Python" label="Python">
+    <CodeBlock language="json" showLineNumbers>{MyComponentSource}</CodeBlock>
+  </TabItem>
+</Tabs>
 
-    :::tip My tip
-
-    Use this awesome feature option
-
-    :::
-
-    :::danger Take care
-
-    This action is dangerous
-
-    :::
-
-:::tip My tip
-
-Use this awesome feature option
-
-:::
-
-:::danger Take care
-
-This action is dangerous
-
-:::
-
-## MDX and React Components
-
-[MDX](https://mdxjs.com/) can make your documentation more **interactive** and allows using any **React components inside Markdown**:
-
-```jsx
-export const Highlight = ({children, color}) => (
-  <span
-    style={{
-      backgroundColor: color,
-      borderRadius: '20px',
-      color: '#fff',
-      padding: '10px',
-      cursor: 'pointer',
-    }}
-    onClick={() => {
-      alert(`You clicked the color ${color} with label ${children}`)
-    }}>
-    {children}
-  </span>
-);
-
-This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
-
-This is <Highlight color="#1877F2">Facebook blue</Highlight> !
-```
-
-export const Highlight = ({children, color}) => (
-  <span
-    style={{
-      backgroundColor: color,
-      borderRadius: '20px',
-      color: '#fff',
-      padding: '10px',
-      cursor: 'pointer',
-    }}
-    onClick={() => {
-      alert(`You clicked the color ${color} with label ${children}`);
-    }}>
-    {children}
-  </span>
-);
-
-This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
-
-This is <Highlight color="#1877F2">Facebook blue</Highlight> !
+<Tabs groupId="code-block" defaultValue="Python">
+  <TabItem value="C" label="C" default>
+    <CodeBlock language="json">{MyComponentSource}</CodeBlock>
+  </TabItem>
+  <TabItem value="C++" label="C++">
+    <CodeBlock language="json">{MyComponentSource}</CodeBlock>
+  </TabItem>
+  <TabItem value="Python" label="Python">
+    <CodeBlock language="json">{MyComponentSource}</CodeBlock>
+  </TabItem>
+</Tabs>
