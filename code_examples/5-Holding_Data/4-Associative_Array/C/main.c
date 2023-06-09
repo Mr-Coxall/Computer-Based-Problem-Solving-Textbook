@@ -1,1 +1,0 @@
-// No associative arrays in C

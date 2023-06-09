@@ -1,1 +1,0 @@
-// No default values for functions in Go

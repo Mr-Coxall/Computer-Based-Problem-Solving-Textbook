@@ -1,1 +1,0 @@
-// No list or Linked List standard in C
