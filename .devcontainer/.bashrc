@@ -131,7 +131,8 @@ __bash_prompt() {
     local lightblue='\[\033[1;34m\]'
     local removecolor='\[\033[0m\]'
     # updated line below to remove file location
-    PS1="${userpart} ${gitbranch}${removecolor}\$ "
+    # PS1="${userpart} ${gitbranch}${removecolor}\$ "
+    PS1="\[\033[0;32m\]@Mr-Coxall \[\033[0m\]➜ ${gitbranch}${removecolor}\$ "
     unset -f __bash_prompt
 }
 __bash_prompt
