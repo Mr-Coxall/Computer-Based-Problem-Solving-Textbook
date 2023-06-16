@@ -3,7 +3,7 @@ Output ./vhs.gif
 
 # Set up a screen
 Set FontSize 48
-Set FontFamily "Comic Mono"
+Set FontFamily "ComicMono Nerd Font"
 Set Width 1920
 Set Height 1080
 Set TypingSpeed 200ms
