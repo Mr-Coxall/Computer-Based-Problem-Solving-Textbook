@@ -22,6 +22,6 @@ sudo rm -R ./ttyd
 
 git config --global user.name "Mr Coxall"
 git config --global user.email "mr.coxall@mths.ca"
+git config pull.rebase false
 # shellcheck source=/dev/null
 source ~/.bashrc 
-git config pull.rebase false
