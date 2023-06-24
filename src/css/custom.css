@@ -4,8 +4,14 @@
  * work well for content-centric websites.
  */
 
- p {
+p {
   font-size: 24px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* You can override the default Infima variables here. */
