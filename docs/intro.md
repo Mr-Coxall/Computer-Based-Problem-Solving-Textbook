@@ -13,6 +13,6 @@ This book does not include any instructions on how to load, use, create IDEs or 
 
 Within the textbook you will see words or groups of words that are hyperlinked to [Wikipedia](https://en.wikipedia.org/wiki>). The point of linking to Wikipedia is to give additional information about a topic if the reader is unsure about the concept. Please note that I do not have control over what is placed on Wikipedia and although it seemed useful and correct when I looked at the link, these pages are changing all the time. Despite this, the information is usually correct and can be very helpful.
 
-### Cartoons
+## Cartoons
 
 The cartoons are provided by [Geek & Poke](http://geek-and-poke.com/).

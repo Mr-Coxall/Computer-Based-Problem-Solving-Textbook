@@ -8,7 +8,7 @@
 - g++ ./main.cpp -o ./main.app
 - ./main.app
 
-## C#
+## CSharp
 - mcs -out:./main.exe ./main.cs
 - mono ./main.exe
 
