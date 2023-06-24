@@ -26,9 +26,9 @@ GIT_USER=mr-coxall yarn deploy
 ```
 
 
-# Website
+# Web site
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This web site is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
 
