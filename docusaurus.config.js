@@ -45,13 +45,7 @@ const config = {
           editUrl:
             'https://https://github.com/Mr-Coxall/Computer-Based-Problem-Solving-Textbook/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://https://github.com/Mr-Coxall/Computer-Based-Problem-Solving-Textbook/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
