@@ -26,19 +26,19 @@ GIT_USER=mr-coxall yarn deploy
 ```
 
 
-# Site
+## Site
 
 This site is built using [Docusaurus 2](https://docusaurus.io/), a modern static site generator.
 
 ### Installation
 
-```
+```bash
 yarn
 ```
 
 ### Local Development
 
-```
+```bash
 yarn start
 ```
 
@@ -46,7 +46,7 @@ This command starts a local development server and opens up a browser window. Mo
 
 ### Build
 
-```
+```bash
 yarn build
 ```
 
@@ -67,7 +67,7 @@ To push code back to Git, remember you need a new SSH key!
 
 Using SSH:
 
-```
+```bash
 USE_SSH=true yarn deploy
 ```
 
