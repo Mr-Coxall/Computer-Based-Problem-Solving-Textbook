@@ -16,3 +16,5 @@ Within the textbook you will see words or groups of words that are hyperlinked t
 ## Cartoons
 
 The cartoons are provided by [Geek & Poke](http://geek-and-poke.com/).
+
+Update!
