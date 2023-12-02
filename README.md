@@ -73,7 +73,3 @@ USE_SSH=true yarn deploy
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the site and push to the `gh-pages` branch.
 
---Test data
-
-
-
