@@ -15,4 +15,4 @@ The online version can be found at:
 
 ## Build Process
 
-After commiting changes to GitHub, GitHub Actions will build the web site and deploy to gh-pages.
+After commiting changes to GitHub, GitHub Actions will build the site and deploy to gh-pages.
