@@ -3,7 +3,7 @@
   "layout": "page.njk",
   "metas": {
     "title": "=title",
-    "site": "Site Name",
+    "site": "Computer Based Problem Solving",
     "lang": "en",
     "description": "=description"
   },
@@ -11,12 +11,7 @@
     {
       "icon": "fab fa-github",
       "title": "GitHub Repository",
-      "url": "https://github.com/hexagon/lumocs"
-    },
-    {
-      "icon": "fab fa-npm",
-      "title": "NPM Library",
-      "url": "https://npmjs.com"
+      "url": "https://github.com/Mr-Coxall/Computer-Based-Problem-Solving-Textbook"
     }
   ],
   "nav_links": [
